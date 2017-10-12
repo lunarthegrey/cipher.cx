@@ -217,4 +217,4 @@ function main(configpath) {
   init(JSON.parse(fs.readFileSync(configpath)));
 }
 
-main('./server.conf')
+main('/home/node/cipher.cx/server/server.conf')
